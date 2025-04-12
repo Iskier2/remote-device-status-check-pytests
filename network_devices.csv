@@ -1,0 +1,51 @@
+device_id,hostname,ip_address,vendor,model,firmware_version,status
+1,router-alpha,192.168.1.1,CircuitWizard,Model4331,16.9.2,online
+2,switch-beta,192.168.1.10,JumpNet,EX4300,18.4R2,online
+3,firewall-gamma,192.168.1.20,ShieldyNet,FortiGate-60E,6.4.3,offline
+4,server-delta,192.68.1.30,SleepyComp,PowerEdge R740,2.10.5,online
+5,access-point-epsilon,192.168.1.40,EverywhereNet,UAP-AC-PRO,4.3.21,online
+6,load-balancer-zeta,192.168.1.50,FiveFingers,BIG-IP LTM,15.1.0,offline
+7,router-eta,192.168.1.60,TinyRouter,RB4011iGS+,6.48.1,online
+8,switch-theta,192.168.1.70,FastPackets,Aruba 2930F,16.08.0015,online
+9,firewall-iota,192.168.1.80,WallOfAlto,PA-220,10.1.6,online
+10,server-kappa,192.168.1.90,MegaMicroTech,SYS-1029U-TN10RT,3.1.2,offline
+11,access-point-lambda,192.168.1.100,TwoPlug,EAP225,5.0.3,online
+12,load-balancer-mu,192.168.1.110,LemonScale,NetScaler ADC,13.0,online
+13,router-nu,192.168.1.120,SideRoute,ER-X,2.0.9,offline
+14,switch-xi,192.168.1.130,MeshGears,GS308E,1.0.2,online
+15,firewall-omicron,192.168.1.140,LookoutTower,Firebox T35,12.5.8,online
+16,server-pi,192.168.1.150,LongBox,ThinkSystem SR650,4.2.1,offline
+17,access-point-rho,192.168.1.160,RockusNet,R750,5.5.0,online
+18,load-balancer-sigma,192.168.1.170,TenFingers,Thunder ADC,6.1.1,online
+19,router-tau,192.168.1.180,DoubleLink,DIR-882,1.20,online
+20,switch-upsilon,192.168.1.190,TrendMesh,TEG-S80g,1.0.1,offline
+21,router-phi,192.168.1.201,CircuitWizard,Model4321,16.9.3,online
+22,switch-chi,192.168.1.202,JumpNet,EX4300,18.4R3,online
+23,firewall-psi,192.168.1.203,ShieldyNet,FortiGate-61E,6.4.4,offline
+24,server-omega,192.168.1.204,SleepyComp,PowerEdge R750,2.10.6,online
+25,access-point-alpha2,192.168.1.205,EverywhereNet,UAP-AC-LR,4.3.22,online
+26,load-balancer-beta2,192.168.1.206,FiveFingers,BIG-IP LTM,15.1.1,offline
+27,router-gamma2,192.168.1.207,TinyRouter,RB4011iGS+,6.48.2,online
+28,switch-delta2,192.168.1.208,FastPackets,Aruba 2930M,16.08.0016,online
+29,firewall-epsilon2,192.168.1.209,WallOfAlto,PA-220,10.1.7,online
+30,server-zeta2,192.168.1.210,MegaMicroTech,SYS-1029U-TN10RT,3.1.3,offline
+31,access-point-eta2,192.168.1.211,TwoPlug,EAP225,5.0.4,online
+32,load-balancer-theta2,192.168.1.212,LemonScale,NetScaler ADC,13.1,online
+33,router-iota2,192.168.1.213,SideRoute,ER-X,2.1.0,offline
+34,switch-kappa2,192.168.1.214,MeshGears,GS308E,1.0.3,online
+35,firewall-lambda2,192.168.1.215,LookoutTower,Firebox T35,12.5.9,online
+36,server-mu2,192.168.1.216,LongBox,ThinkSystem SR650,4.2.2,offline
+37,access-point-nu2,192.168.1.217,RockusNet,R750,5.5.1,online
+38,load-balancer-xi2,192.168.1.218,TenFingers,Thunder ADC,6.1.2,online
+39,router-omicron2,192.168.1.219,DoubleLink,DIR-882,1.21,online
+40,switch-pi2,192.168.1.220,TrendMesh,TEG-S80g,1.0.2,offline
+41,router-rho2,invalid_host,192.168.1.221,DoubleLink,DIR-882,1.21,online
+42,switch-sigma2,42,192.168.1.222,TrendMesh,TEG-S80g,1.0.2,offline
+43,firewall-tau2,192.168.invalid_ip,LookoutTower,Firebox T35,12.5.9,online
+44,server-upsilon2,192.168.1.224,LongBox,ThinkSystem SR650,4.2.2,badstatus
+45,access-point-phi2,192.168.1.225,RockusNet,R750,5.5.1,online
+46,load-balancer-chi2,192.168.1.226,TenFingers,Thunder ADC,6.1.2,online
+47,router-psi2,192.168.1.227,DoubleLink,DIR-882,1.21,online
+48,switch-omega2,192.168.1.228,TrendMesh,TEG-S80g,1.0.2,offline
+49,router-aaa,192.168.1.229,DoubleLink,DIR-882,1.21,online
+50,switch-bbb,192.168.1.230,TrendMesh,TEG-S80g,1.0.2,online
