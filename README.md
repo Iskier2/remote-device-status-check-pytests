@@ -66,7 +66,7 @@ python my_test.py --timeout <timeout_in_seconds> [--terminal_log]
 
 ### Example:
 ```bash
-python main.py --timeout 600 --terminal_log
+python my_test.py --timeout 600 --terminal_log
 ```
 
 This example runs the program with a 600-second timeout and enables terminal logging.
