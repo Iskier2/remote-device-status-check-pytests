@@ -60,3 +60,15 @@ python main.py --timeout 600 --terminal_log
 ```
 
 This example runs the program with a 600-second timeout and enables terminal logging.
+
+
+## Code Style
+
+This project adheres to PEP 8 coding standards. To ensure compliance, `flake8` was used to automatically enforce PEP 8 rules and identify any style violations during development.
+
+
+### Practical Testing
+
+In addition to unit tests, the program has been tested in practical scenarios using virtual servers (with Ubuntu 24.04). These tests ensured the reliability of the SSH tunneling, CSV parsing, and device monitoring functionalities under real-world conditions. The virtual server environment closely mimicked production setups to validate the program's robustness and error-handling capabilities.
+
+

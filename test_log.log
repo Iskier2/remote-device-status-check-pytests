@@ -1,10 +1,39 @@
-2025-04-13 10:13:52 - INFO - Start monitoring devices for 600 seconds of 20 seconds each.
-2025-04-13 10:13:53 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 10:13:53 - INFO - Authentication (publickey) successful!
-2025-04-13 10:13:54 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 10:13:54 - INFO - Authentication (publickey) successful!
-2025-04-13 10:13:54 - INFO - [chan 0] Opened sftp connection (server version 3)
-2025-04-13 10:13:54 - INFO - 1 devices online
-2025-04-13 10:14:02 - INFO - [chan 0] sftp session closed.
-2025-04-13 10:14:03 - INFO - Closing the script.
-
+2025-04-13 13:23:07 - INFO - Start monitoring devices for 600 seconds.
+2025-04-13 13:23:08 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 13:23:08 - INFO - Authentication (publickey) successful!
+2025-04-13 13:23:09 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 13:23:09 - INFO - Authentication (publickey) successful!
+2025-04-13 13:23:09 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-04-13 13:23:09 - INFO - 1 devices online
+2025-04-13 13:23:29 - INFO - 1 devices online
+2025-04-13 13:23:49 - INFO - 1 devices online
+2025-04-13 13:24:09 - INFO - 1 devices online
+2025-04-13 13:24:29 - INFO - 1 devices online
+2025-04-13 13:24:49 - INFO - 1 devices online
+2025-04-13 13:25:09 - INFO - 1 devices online
+2025-04-13 13:25:29 - INFO - 1 devices online
+2025-04-13 13:25:49 - INFO - 1 devices online
+2025-04-13 13:26:09 - INFO - 1 devices online
+2025-04-13 13:26:29 - INFO - 1 devices online
+2025-04-13 13:26:49 - INFO - 1 devices online
+2025-04-13 13:27:09 - INFO - 1 devices online
+2025-04-13 13:27:29 - INFO - 1 devices online
+2025-04-13 13:27:49 - INFO - 1 devices online
+2025-04-13 13:28:09 - INFO - 1 devices online
+2025-04-13 13:28:29 - INFO - 1 devices online
+2025-04-13 13:28:49 - INFO - 1 devices online
+2025-04-13 13:29:09 - INFO - 1 devices online
+2025-04-13 13:29:29 - INFO - 1 devices online
+2025-04-13 13:29:49 - INFO - 1 devices online
+2025-04-13 13:30:09 - INFO - 1 devices online
+2025-04-13 13:30:29 - INFO - 1 devices online
+2025-04-13 13:30:49 - INFO - 1 devices online
+2025-04-13 13:31:09 - INFO - 1 devices online
+2025-04-13 13:31:29 - INFO - 1 devices online
+2025-04-13 13:31:49 - INFO - 1 devices online
+2025-04-13 13:32:09 - INFO - 1 devices online
+2025-04-13 13:32:29 - INFO - 1 devices online
+2025-04-13 13:32:49 - INFO - 1 devices online
+2025-04-13 13:33:09 - INFO - Finished monitoring devices successfully.
+2025-04-13 13:33:09 - INFO - [chan 0] sftp session closed.
+2025-04-13 13:33:09 - INFO - Closing the script.

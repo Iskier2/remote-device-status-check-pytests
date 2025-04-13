@@ -1,7 +1,6 @@
 import pytest
 from src.setup import params
 from src.exceptions import WrongParamValue
-from src.consts import CHECK_INTERVAL
 import sys
 
 
@@ -9,7 +8,9 @@ import sys
 class TestParams:
     def test_params_valid_timeout(self, monkeypatch):
         for timeout in [10, 50, 200, 600, 3000, 4568]:
-            monkeypatch.setattr(sys, 'argv', ['program', '--timeout', str(timeout)])
+            monkeypatch.setattr(
+                sys, 'argv', ['program', '--timeout', str(timeout)]
+            )
             result = params()
             assert result == timeout
 

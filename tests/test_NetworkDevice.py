@@ -46,22 +46,31 @@ class TestNetworkDevice:
             NetworkDevice(self.data)
 
     def test_check_status_online(self):
-        
         device = NetworkDevice(self.data)
 
         mock_client = MagicMock()
-        mock_client.exec_command.return_value = (None, MagicMock(channel=MagicMock(recv_exit_status=MagicMock(return_value=0))), None)
+
+        mock_client.exec_command.return_value = (None, MagicMock(
+            channel=MagicMock(
+                recv_exit_status=MagicMock(return_value=0)
+            )), None)
 
         device.check_status(mock_client)
-        mock_client.exec_command.assert_called_once_with('ping -c 1 192.168.1.1')
+        mock_client.exec_command.assert_called_once_with(
+            'ping -c 1 192.168.1.1'
+        )
 
     def test_check_status_offline(self):
-        
         device = NetworkDevice(self.data)
 
         mock_client = MagicMock()
-        mock_client.exec_command.return_value = (None, MagicMock(channel=MagicMock(recv_exit_status=MagicMock(return_value=1))), None)
+        mock_client.exec_command.return_value = (None, MagicMock(
+            channel=MagicMock(
+                recv_exit_status=MagicMock(return_value=1)
+            )), None)
 
         with pytest.raises(DeviceOffline):
             device.check_status(mock_client)
-        mock_client.exec_command.assert_called_once_with('ping -c 1 192.168.1.1')
+        mock_client.exec_command.assert_called_once_with(
+            'ping -c 1 192.168.1.1'
+        )
