@@ -6,7 +6,7 @@ from src.monitor import monitor
 from src.consts import CSV_REMOTE_PATH, CHECK_INTERVAL
 from src.exceptions import NoOnlineDevices
 import sys
-import src.config as config
+import src.setup as setup
 
 def main(timeout: int) -> None:
     logging.info(f"Start monitoring devices for {timeout} seconds of {CHECK_INTERVAL} seconds each.")
@@ -26,13 +26,13 @@ def main(timeout: int) -> None:
             client_A.close()
             client_B.close()
             sftp_client.close()
-        logging.info("Closing the script.")
+        logging.info("Closing the script.\n")
         
 
 if __name__ == '__main__':
     try:
-        config.logs()
-        timeout = config.params()
+        setup.logs()
+        timeout = setup.params()
         main(timeout)
     except Exception as e:
         logging.error(f"While running my_test. {e}")

@@ -1,29 +1,10 @@
-2025-04-12 19:50:13 - INFO - Start monitoring devices for 30 intervals of 20 seconds each.
-2025-04-12 19:50:13 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-12 19:50:13 - INFO - Authentication (publickey) successful!
-2025-04-12 19:50:14 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-12 19:50:14 - INFO - Authentication (publickey) successful!
-2025-04-12 19:50:15 - INFO - [chan 0] Opened sftp connection (server version 3)
-2025-04-12 19:50:25 - ERROR - Device 1 is offline.
-2025-04-12 19:50:25 - INFO - [chan 0] sftp session closed.
-2025-04-12 19:50:25 - INFO - Closing the script.
-2025-04-12 19:50:25 - ERROR - While running my_test. 
-2025-04-12 20:15:54 - INFO - Start monitoring devices for 30 intervals of 20 seconds each.
-2025-04-12 20:16:02 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-12 20:16:02 - INFO - Authentication (publickey) successful!
-2025-04-12 20:16:03 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-12 20:16:03 - INFO - Authentication (publickey) successful!
-2025-04-12 20:16:03 - INFO - [chan 0] Opened sftp connection (server version 3)
-2025-04-12 20:16:13 - ERROR - Device 1 is offline.
-2025-04-12 20:16:13 - INFO - [chan 0] sftp session closed.
-2025-04-12 20:16:13 - INFO - Closing the script.
-2025-04-12 20:16:13 - ERROR - While running my_test. 
-2025-04-13 08:20:23 - INFO - Start monitoring devices for 30 intervals of 20 seconds each.
-2025-04-13 08:20:24 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 08:20:24 - INFO - Authentication (publickey) successful!
-2025-04-13 08:20:25 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 08:20:25 - INFO - Authentication (publickey) successful!
-2025-04-13 08:20:26 - INFO - [chan 0] Opened sftp connection (server version 3)
-2025-04-13 08:20:26 - INFO - 1 devices online
-2025-04-13 08:20:45 - INFO - [chan 0] sftp session closed.
-2025-04-13 08:20:45 - INFO - Closing the script.
+2025-04-13 10:13:52 - INFO - Start monitoring devices for 600 seconds of 20 seconds each.
+2025-04-13 10:13:53 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 10:13:53 - INFO - Authentication (publickey) successful!
+2025-04-13 10:13:54 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 10:13:54 - INFO - Authentication (publickey) successful!
+2025-04-13 10:13:54 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-04-13 10:13:54 - INFO - 1 devices online
+2025-04-13 10:14:02 - INFO - [chan 0] sftp session closed.
+2025-04-13 10:14:03 - INFO - Closing the script.
+
