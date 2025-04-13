@@ -44,6 +44,16 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+
+
+Alternatively, you can use the `install.sh` script to set up the environment and install dependencies. Run the following command:
+
+```bash
+./install.sh
+```
+
+This script automates the installation process, ensuring all required dependencies are installed and the environment is properly configured.
+
 ## Usage
 
 ```bash
