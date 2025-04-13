@@ -1,39 +1,41 @@
-2025-04-13 13:23:07 - INFO - Start monitoring devices for 600 seconds.
-2025-04-13 13:23:08 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 13:23:08 - INFO - Authentication (publickey) successful!
-2025-04-13 13:23:09 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
-2025-04-13 13:23:09 - INFO - Authentication (publickey) successful!
-2025-04-13 13:23:09 - INFO - [chan 0] Opened sftp connection (server version 3)
-2025-04-13 13:23:09 - INFO - 1 devices online
-2025-04-13 13:23:29 - INFO - 1 devices online
-2025-04-13 13:23:49 - INFO - 1 devices online
-2025-04-13 13:24:09 - INFO - 1 devices online
-2025-04-13 13:24:29 - INFO - 1 devices online
-2025-04-13 13:24:49 - INFO - 1 devices online
-2025-04-13 13:25:09 - INFO - 1 devices online
-2025-04-13 13:25:29 - INFO - 1 devices online
-2025-04-13 13:25:49 - INFO - 1 devices online
-2025-04-13 13:26:09 - INFO - 1 devices online
-2025-04-13 13:26:29 - INFO - 1 devices online
-2025-04-13 13:26:49 - INFO - 1 devices online
-2025-04-13 13:27:09 - INFO - 1 devices online
-2025-04-13 13:27:29 - INFO - 1 devices online
-2025-04-13 13:27:49 - INFO - 1 devices online
-2025-04-13 13:28:09 - INFO - 1 devices online
-2025-04-13 13:28:29 - INFO - 1 devices online
-2025-04-13 13:28:49 - INFO - 1 devices online
-2025-04-13 13:29:09 - INFO - 1 devices online
-2025-04-13 13:29:29 - INFO - 1 devices online
-2025-04-13 13:29:49 - INFO - 1 devices online
-2025-04-13 13:30:09 - INFO - 1 devices online
-2025-04-13 13:30:29 - INFO - 1 devices online
-2025-04-13 13:30:49 - INFO - 1 devices online
-2025-04-13 13:31:09 - INFO - 1 devices online
-2025-04-13 13:31:29 - INFO - 1 devices online
-2025-04-13 13:31:49 - INFO - 1 devices online
-2025-04-13 13:32:09 - INFO - 1 devices online
-2025-04-13 13:32:29 - INFO - 1 devices online
-2025-04-13 13:32:49 - INFO - 1 devices online
-2025-04-13 13:33:09 - INFO - Finished monitoring devices successfully.
-2025-04-13 13:33:09 - INFO - [chan 0] sftp session closed.
-2025-04-13 13:33:09 - INFO - Closing the script.
+2025-04-13 14:42:52 - INFO - Start monitoring devices for 600 seconds.
+2025-04-13 14:42:52 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 14:42:52 - INFO - Authentication (publickey) successful!
+2025-04-13 14:42:53 - INFO - Connected (version 2.0, client OpenSSH_9.6p1)
+2025-04-13 14:42:53 - INFO - Authentication (publickey) successful!
+2025-04-13 14:42:54 - INFO - [chan 0] Opened sftp connection (server version 3)
+2025-04-13 14:42:54 - ERROR - row 3: Invalid IP address: bad_ip
+2025-04-13 14:42:54 - ERROR - row 4: Invalid status: bad_status
+2025-04-13 14:42:54 - INFO - 2 devices online
+2025-04-13 14:43:14 - INFO - 2 devices online
+2025-04-13 14:43:34 - INFO - 2 devices online
+2025-04-13 14:43:54 - INFO - 2 devices online
+2025-04-13 14:44:14 - INFO - 2 devices online
+2025-04-13 14:44:34 - INFO - 2 devices online
+2025-04-13 14:44:54 - INFO - 2 devices online
+2025-04-13 14:45:14 - INFO - 2 devices online
+2025-04-13 14:45:34 - INFO - 2 devices online
+2025-04-13 14:45:54 - INFO - 2 devices online
+2025-04-13 14:46:14 - INFO - 2 devices online
+2025-04-13 14:46:34 - INFO - 2 devices online
+2025-04-13 14:46:54 - INFO - 2 devices online
+2025-04-13 14:47:14 - INFO - 2 devices online
+2025-04-13 14:47:34 - INFO - 2 devices online
+2025-04-13 14:47:54 - INFO - 2 devices online
+2025-04-13 14:48:14 - INFO - 2 devices online
+2025-04-13 14:48:34 - INFO - 2 devices online
+2025-04-13 14:48:54 - INFO - 2 devices online
+2025-04-13 14:49:14 - INFO - 2 devices online
+2025-04-13 14:49:34 - INFO - 2 devices online
+2025-04-13 14:49:54 - INFO - 2 devices online
+2025-04-13 14:50:14 - INFO - 2 devices online
+2025-04-13 14:50:34 - INFO - 2 devices online
+2025-04-13 14:50:54 - INFO - 2 devices online
+2025-04-13 14:51:14 - INFO - 2 devices online
+2025-04-13 14:51:34 - INFO - 2 devices online
+2025-04-13 14:51:54 - INFO - 2 devices online
+2025-04-13 14:52:14 - INFO - 2 devices online
+2025-04-13 14:52:34 - INFO - 2 devices online
+2025-04-13 14:52:54 - INFO - Finished monitoring devices successfully.
+2025-04-13 14:52:54 - INFO - [chan 0] sftp session closed.
+2025-04-13 14:52:54 - INFO - Closing the script.
