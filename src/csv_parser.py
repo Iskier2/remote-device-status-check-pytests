@@ -15,6 +15,6 @@ def csv_to_network_devices(csv_file: str) -> List[NetworkDevice]:
             devices.append(device)
 
         except ValueError as e:
-            logging.error(f"row {i}: {e}")
+            logging.error(f"row {i + 1}: {e}")
 
     return devices
