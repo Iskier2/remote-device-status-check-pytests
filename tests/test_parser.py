@@ -1,6 +1,6 @@
 
 import ipaddress
-from csv_parser import csv_to_network_devices
+from src.csv_parser import csv_to_network_devices
 
 def test_valid_csv_parsing():
     headers = "device_id,hostname,ip_address,vendor,model,firmware_version,status"

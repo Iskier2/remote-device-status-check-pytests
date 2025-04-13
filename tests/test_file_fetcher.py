@@ -18,5 +18,5 @@ def test_read_remote_file_failure():
     mock_sftp_client = MagicMock()
     mock_sftp_client.open.side_effect = Exception("File not found")
 
-    with pytest.raises(RuntimeError, match="Cannot read remote file: File not found"):
+    with pytest.raises(RuntimeError, match="Cannot read remote file. File not found"):
         read_remote_file(mock_sftp_client, "/path")

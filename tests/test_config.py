@@ -8,7 +8,7 @@ def test_params_valid_timeout(monkeypatch):
     for timeout in [10, 50, 200, 600, 3000, 4568]:
         monkeypatch.setattr(sys, 'argv', ['program', '--timeout', str(timeout)])
         result = params()
-        assert result == timeout // CHECK_INTERVAL
+        assert result == timeout
 
 def test_params_invalid_argument(monkeypatch):
     monkeypatch.setattr(sys, 'argv', ['program', '--invalid_arg', '10'])

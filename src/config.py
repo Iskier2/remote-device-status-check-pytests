@@ -10,7 +10,7 @@ def params():
         parser.add_argument('--terminal_log', action='store_true', help='Enable terminal logging')
         timeout = parser.parse_args().timeout
         assert timeout > 0
-        return timeout // CHECK_INTERVAL
+        return timeout
     except AssertionError:
         logging.error("Timeout must be greater than 0. [--timeout]")
         raise WrongParamValue

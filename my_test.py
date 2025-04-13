@@ -8,8 +8,8 @@ from src.exceptions import NoOnlineDevices
 import sys
 import src.config as config
 
-def main(repeats: int) -> None:
-    logging.info(f"Start monitoring devices for {repeats} intervals of {CHECK_INTERVAL} seconds each.")
+def main(timeout: int) -> None:
+    logging.info(f"Start monitoring devices for {timeout} seconds of {CHECK_INTERVAL} seconds each.")
     try:
         client_A, client_B, sftp_client = create_connection()
         file_content = read_remote_file(sftp_client, CSV_REMOTE_PATH)
@@ -19,7 +19,7 @@ def main(repeats: int) -> None:
         if not online_devices:
             logging.error("No devices online.")
             raise NoOnlineDevices
-        monitor(online_devices, repeats, client_B)
+        monitor(online_devices, timeout, client_B)
         logging.info("Finished monitoring devices successfully.")
     finally:
         if 'sftp_client' in locals():
@@ -32,8 +32,8 @@ def main(repeats: int) -> None:
 if __name__ == '__main__':
     try:
         config.logs()
-        repeats = config.params()
-        main(int(repeats))
+        timeout = config.params()
+        main(timeout)
     except Exception as e:
         logging.error(f"While running my_test. {e}")
         sys.exit(1)
